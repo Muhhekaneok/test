@@ -1,0 +1,44 @@
+Telran/
+	Java/ (реп)
+	
+	GenTech/ (реп)
+		oct7/
+		oct6/
+		oct5/
+	
+	Algo/ (реп)
+	
+	Frontend/ (реп)
+		Homeworks/
+			oct6/
+			oct5/
+Ветка - изозированный поток разработки (еще одна версия проекта)
+
+СТРАТЕГИИ ВЕТВЛЕНИЯ ДЛЯ GIT
+
+(1) GIT FLOW
+	- master / main / stable (long-term)
+	- develop / current (long-term)
+	- issue553, ticket03, hotfix1, feature/payments, login (short-term)
+	
+
+(2) GITHUB FLOW
+	- long-term branch
+	- short-term branches
+
+git branch (показать список веток)
+git branch новая_ветвь (создать ветку)
+git checkout название_ветки (переключиться на ветку)
+
+
+GIT FLOW (порядок работы по проекту)
+
+(1) внести необх. правки
+(2) проиндексировать изменения
+(3) выполнить сохранение/фиксацию (git commit)
+
+
+git commit -am 'текст комментария'
+
+	-m (указать коммент)
+	-a (проиндексировать изменения в отслеж. файлах)
